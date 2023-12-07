@@ -17,6 +17,6 @@ services:
         - '5506:3306'
       restart: unless-stopped
       environment:
-        MYSQL_USER: suraj_test_user
+        MYSQL_USER: laravel_user
         MYSQL_PASSWORD: 12345
         MYSQL_ROOT_PASSWORD: 12345
