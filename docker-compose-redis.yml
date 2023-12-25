@@ -3,7 +3,7 @@ version: '3.6'
 services:
   redis:
     container_name: redis-container
-    image: "redis:latest"
+    image: "redis:alpine"
     hostname: redis
     ports:
       - "6379:6379"
